@@ -18,7 +18,7 @@ function recursiveFib(n){
         return n;
     }
     else{
-        return recursiveFib(n-2) + recursiveFib(n-1);
+        return recursiveFib(n-1) + recursiveFib(n-2);
     }
 }
 
